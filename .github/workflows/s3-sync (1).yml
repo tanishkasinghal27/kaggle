@@ -21,4 +21,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./my_folder  s3://tanishka_bucket
+          aws s3 sync ./my_folder  s3://t27bucket
